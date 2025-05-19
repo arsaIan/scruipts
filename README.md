@@ -29,9 +29,15 @@ pip install -r requirements.txt
 ```
 
 4. Run:
-```bash
-python run app.py
-```
+    
+    Dev:
+    ```bash
+    python run app.py
+    ```
+    Prod:
+    ```bash
+    python start.py
+    ```
 
 ## First-Time Setup
 
