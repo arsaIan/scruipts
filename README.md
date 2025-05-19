@@ -1,4 +1,5 @@
-# Scruipt 
+# Scripts  
+
 
 Simple self hosted python script manager
 
@@ -13,7 +14,7 @@ Simple self hosted python script manager
 1. Clone the repository:
 ```bash
 git clone https://github.com/arsaIan/scruipts
-cd scruipt
+cd scruipts
 ```
 
 2. Create a virtual environment and activate it:
