@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="mb-0">Create New Script</h2>
+            </div>
+            <div class="card-body">
+                <form method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Script Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required
+                               placeholder="Enter a name for your script">
+                    </div>
+                    <div class="mb-3">
+                        <label for="content" class="form-label">Script Content</label>
+                        <textarea class="form-control" id="content" name="content" rows="10" required
+                                  placeholder="Enter your Python script here"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <a href="{{ url_for('index') }}" class="btn btn-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-primary">Create Script</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 
