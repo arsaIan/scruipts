@@ -1,7 +1,8 @@
 import subprocess
 import os
 
-# Configuration
+# Configuration 
+# Change as per your needs
 host = "0.0.0.0"
 port = "5001"
 workers = "2"
