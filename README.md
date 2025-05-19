@@ -1,4 +1,4 @@
-# Scripts  
+# Scruipts  
 
 
 Simple self hosted python script manager
