@@ -49,3 +49,6 @@ pip install -r requirements.txt
 
 The application will be available at `http://localhost:5001`
 
+
+## UI View
+![Screenshot](./static/screenshot.png)
