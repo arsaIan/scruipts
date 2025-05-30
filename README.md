@@ -6,7 +6,7 @@ Simple self hosted python script manager
 ## Features
 
 - 🔐 User Authentication
-- 📝 Script Management
+- 📝 Script Management [Create, Edit, Run, View Logs]
   
 
 ## Installation
